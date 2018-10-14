@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /crawling
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/areacode?characterEncoding=utf-8&useUnicode=true
+    username: root
+    password: 123456
+
+
